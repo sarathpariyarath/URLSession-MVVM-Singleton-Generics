@@ -9,21 +9,38 @@
 /* Begin PBXBuildFile section */
 		37006E2829943F5C003CB867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37006E2729943F5C003CB867 /* AppDelegate.swift */; };
 		37006E2A29943F5C003CB867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37006E2929943F5C003CB867 /* SceneDelegate.swift */; };
-		37006E2C29943F5C003CB867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37006E2B29943F5C003CB867 /* ViewController.swift */; };
 		37006E2F29943F5C003CB867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37006E2D29943F5C003CB867 /* Main.storyboard */; };
 		37006E3129943F5E003CB867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37006E3029943F5E003CB867 /* Assets.xcassets */; };
 		37006E3429943F5E003CB867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37006E3229943F5E003CB867 /* LaunchScreen.storyboard */; };
+		37006E47299440E4003CB867 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37006E46299440E4003CB867 /* ProductModel.swift */; };
+		37006E4929944190003CB867 /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37006E4829944190003CB867 /* HttpManager.swift */; };
+		37006E4B29944461003CB867 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37006E4A29944461003CB867 /* Constant.swift */; };
+		37006E4D29944CF9003CB867 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37006E4C29944CF9003CB867 /* ProductListViewController.swift */; };
+		37006E4F29944DE4003CB867 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37006E4E29944DE4003CB867 /* ProductViewModel.swift */; };
+		3779A34D299FFE1B0074D959 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3779A34B299FFE1B0074D959 /* ProductCell.swift */; };
+		3779A34E299FFE1B0074D959 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3779A34C299FFE1B0074D959 /* ProductCell.xib */; };
+		3779A35129A00BBE0074D959 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3779A35029A00BBE0074D959 /* Kingfisher */; };
+		3779A35329A00BEF0074D959 /* UIImageView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3779A35229A00BEF0074D959 /* UIImageView + Extensions.swift */; };
+		3779A35629A0145D0074D959 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3779A35529A0145D0074D959 /* EndPointType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		37006E2429943F5C003CB867 /* YoutubeMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37006E2729943F5C003CB867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37006E2929943F5C003CB867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		37006E2B29943F5C003CB867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37006E2E29943F5C003CB867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37006E3029943F5E003CB867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37006E3329943F5E003CB867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37006E3529943F5E003CB867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37006E46299440E4003CB867 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		37006E4829944190003CB867 /* HttpManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpManager.swift; sourceTree = "<group>"; };
+		37006E4A29944461003CB867 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		37006E4C29944CF9003CB867 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		37006E4E29944DE4003CB867 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		3779A34B299FFE1B0074D959 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		3779A34C299FFE1B0074D959 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		3779A35229A00BEF0074D959 /* UIImageView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extensions.swift"; sourceTree = "<group>"; };
+		3779A35529A0145D0074D959 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3779A35129A00BBE0074D959 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +74,119 @@
 		37006E2629943F5C003CB867 /* YoutubeMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				37006E2729943F5C003CB867 /* AppDelegate.swift */,
-				37006E2929943F5C003CB867 /* SceneDelegate.swift */,
-				37006E2B29943F5C003CB867 /* ViewController.swift */,
-				37006E2D29943F5C003CB867 /* Main.storyboard */,
+				37006E4129943FA4003CB867 /* Application */,
+				37006E3F29943F9A003CB867 /* Constants */,
+				37006E4029943F9D003CB867 /* Extensions */,
+				3779A35429A014440074D959 /* Utitlity */,
+				37006E3E29943F91003CB867 /* Helper */,
+				37006E3D29943F8E003CB867 /* Screens */,
+				37006E3C29943F8C003CB867 /* Storyboard */,
+				37006E3B29943F88003CB867 /* Resources */,
 				37006E3029943F5E003CB867 /* Assets.xcassets */,
-				37006E3229943F5E003CB867 /* LaunchScreen.storyboard */,
 				37006E3529943F5E003CB867 /* Info.plist */,
 			);
 			path = YoutubeMVVM;
+			sourceTree = "<group>";
+		};
+		37006E3B29943F88003CB867 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		37006E3C29943F8C003CB867 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				37006E2D29943F5C003CB867 /* Main.storyboard */,
+				37006E3229943F5E003CB867 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		37006E3D29943F8E003CB867 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				37006E4229944022003CB867 /* Product */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		37006E3E29943F91003CB867 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				37006E4829944190003CB867 /* HttpManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		37006E3F29943F9A003CB867 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				37006E4A29944461003CB867 /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		37006E4029943F9D003CB867 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3779A35229A00BEF0074D959 /* UIImageView + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		37006E4129943FA4003CB867 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				37006E2729943F5C003CB867 /* AppDelegate.swift */,
+				37006E2929943F5C003CB867 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		37006E4229944022003CB867 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				37006E452994403D003CB867 /* Model */,
+				37006E442994403B003CB867 /* View */,
+				37006E4329944037003CB867 /* ViewModel */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		37006E4329944037003CB867 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				37006E4E29944DE4003CB867 /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37006E442994403B003CB867 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37006E4C29944CF9003CB867 /* ProductListViewController.swift */,
+				3779A34B299FFE1B0074D959 /* ProductCell.swift */,
+				3779A34C299FFE1B0074D959 /* ProductCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37006E452994403D003CB867 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37006E46299440E4003CB867 /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3779A35429A014440074D959 /* Utitlity */ = {
+			isa = PBXGroup;
+			children = (
+				3779A35529A0145D0074D959 /* EndPointType.swift */,
+			);
+			path = Utitlity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +205,9 @@
 			dependencies = (
 			);
 			name = YoutubeMVVM;
+			packageProductDependencies = (
+				3779A35029A00BBE0074D959 /* Kingfisher */,
+			);
 			productName = YoutubeMVVM;
 			productReference = 37006E2429943F5C003CB867 /* YoutubeMVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +236,9 @@
 				Base,
 			);
 			mainGroup = 37006E1B29943F5C003CB867;
+			packageReferences = (
+				3779A34F29A00BBE0074D959 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 37006E2529943F5C003CB867 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37006E3429943F5E003CB867 /* LaunchScreen.storyboard in Resources */,
+				3779A34E299FFE1B0074D959 /* ProductCell.xib in Resources */,
 				37006E3129943F5E003CB867 /* Assets.xcassets in Resources */,
 				37006E2F29943F5C003CB867 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +267,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37006E2C29943F5C003CB867 /* ViewController.swift in Sources */,
+				37006E4F29944DE4003CB867 /* ProductViewModel.swift in Sources */,
 				37006E2829943F5C003CB867 /* AppDelegate.swift in Sources */,
+				37006E47299440E4003CB867 /* ProductModel.swift in Sources */,
+				37006E4B29944461003CB867 /* Constant.swift in Sources */,
 				37006E2A29943F5C003CB867 /* SceneDelegate.swift in Sources */,
+				3779A35329A00BEF0074D959 /* UIImageView + Extensions.swift in Sources */,
+				3779A34D299FFE1B0074D959 /* ProductCell.swift in Sources */,
+				37006E4D29944CF9003CB867 /* ProductListViewController.swift in Sources */,
+				3779A35629A0145D0074D959 /* EndPointType.swift in Sources */,
+				37006E4929944190003CB867 /* HttpManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +494,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3779A34F29A00BBE0074D959 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3779A35029A00BBE0074D959 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3779A34F29A00BBE0074D959 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 37006E1C29943F5C003CB867 /* Project object */;
 }
